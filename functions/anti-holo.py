@@ -12,6 +12,7 @@ from hoshino.modules.hoshino_training.util.keyword import *
 WHITE_LIST = '''
 可可
 凑阿库娅 湊あくあ Minato Aqua 阿库娅 洋葱 阿夸 夸哥 夸神 海王 山田赫敏 大亏哥 桐谷夸人 
+百鬼绫目 百鬼あやめ Nakiri Ayame 狗狗 绫目 
 '''.split()
 
 def get_origin_tiangou_pic():
