@@ -42,4 +42,4 @@ module_replace('hoshino.modules.priconne.comic', 'aiorequests', new_aiorequests)
 update_seeker = module_get('hoshino.modules.priconne.comic', 'update_seeker')
 if update_seeker:
     scheduler_remove('hoshino.modules.priconne.comic:update_seeker')
-    nonebot.scheduler.add_job(new_update_seeker, 'interval', minutes=5)
+    #nonebot.scheduler.add_job(new_update_seeker, 'interval', minutes=5)
