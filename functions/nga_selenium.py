@@ -21,4 +21,4 @@ async def new_get_nga_cookies():
         cookies_dict[cookie['name']] = cookie['value']
     return cookies_dict
 
-module_replace('hoshino.modules.ngaclanbattlespider','get_nga_cookies',new_get_nga_cookies)
+module_replace('hoshino.modules.GWYOG-Hoshino-plugins.ngaclanbattlespider','get_nga_cookies',new_get_nga_cookies)
